@@ -1,0 +1,93 @@
+a.feedbackcompany-link {
+	outline: none;
+	text-decoration: none !important;
+}
+.feedbackcompany-widget {
+	text-align: center;
+	background: #eeeeee;
+	color: #222222;
+	padding: 10px;
+	cursor: pointer;
+}
+.feedbackcompany-widgetheader {
+	font-weight: bold;
+	background: #222222;
+	color: #eeeeee;
+	font-size: 1.0em;
+	line-height: 1.8em;
+	height: 1.8em;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: 3px;
+}
+.feedbackcompany-stars {
+	display: inline-block;
+	vertical-align: bottom;
+	text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.4);
+	font-size: 22px;
+	line-height: 22px;
+	vertical-align: top;
+	white-space: nowrap;
+}
+.feedbackcompany-stars > .feedbackcompany-stars-negative {
+	position: relative;
+	float: right;
+	direction: rtl;
+	overflow: hidden;
+	color: #ffffff;
+	display: block;
+	margin-bottom: -2.0em;
+	line-height: inherit;
+}
+.feedbackcompany-stars > .feedbackcompany-stars-positive {
+	clear: both;
+	position: relative;
+	overflow: hidden;
+	color: #dd9933;
+	display: block;
+}
+.feedbackcompany-score {
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+[id^=feedbackcompany-reviewslider] {
+	height: 0px;
+	position: relative;
+}
+.feedbackcompany-reviewauthor {
+	font-weight: bold;
+	vertical-align: top;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	height: 1.0em;
+}
+.feedbackcompany-reviewcontent {
+	position: relative;
+	vertical-align: top;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	height: 3.0em;
+	overflow: hidden;
+}
+.feedbackcompany-amount {
+	vertical-align: top;
+	font-size: 1.0em;
+	line-height: 1.0em;
+	height: 1.0em;
+}
+
+.feedbackcompany-source {
+	clear: both;
+	margin-top: 10px;
+}
+a.feedbackcompany-link .feedbackcompany-widget .feedbackcompany-source > img {
+	vertical-align: top;
+	border: none;
+	box-shadow: none;
+}
+
+.feedbackcompany-simple .feedbackcompany-stars {
+	margin-right: 6px;
+}
